@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    	font-family:Verdana,Geneva,sans-serif;
+       font-size: 0.65vw;
+}
+
+/***** Headings *****/
+
+h1, h2, h3, h4, h5, h6, p{
+	padding-top:0.2em;
+	padding-bottom:0.7em;
+}
+
+h1 {
+font-size:4em;
+}
+ 
+h2 {
+font-size:2em;
+}
+ 
+h3 {
+font-size:1.5em;
+}
+
+strong         { 
+font-weight:bold; 
+}
+
+em       { 
+font-style:italic; 
+}
+ 
+ 
+/***** navigatie *****/
+nav a,
+nav a:link,
+nav a:visited,
+nav a:hover, 
+nav a:active {
+text-decoration:none;
+}
+
+nav ol, nav ul {
+	list-style: none;
+}
+
+
+
+/***** Global Classes *****/
+
+.linkslijnen    { float:left; }
+.rechtslijnen   { float:right; }
+ 
+.text-left     { text-align:left; }
+.text-right    { text-align:right; }
+.text-center   { text-align:center; }
+.text-justify  { text-align:justify; }
+ 
+.onderlijnen     { border-bottom:1px solid; }
+.markeren     { background:#ffc; }
+ 
+.linksfoto    { float:left;margin:4px 10px 4px 0; }
+.rechtsfoto    { float:right;margin:4px 0 4px 10px; }

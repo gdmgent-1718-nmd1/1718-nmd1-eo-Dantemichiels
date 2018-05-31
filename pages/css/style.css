@@ -1,0 +1,400 @@
+@font-face{
+	font-family:bannerfont;
+	src: url(../font/LEIXO-DEMO.ttf);
+}
+
+@font-face{
+	font-family:Montserratbold;
+	src:url(../font/Montserrat-Bold.otf);
+}
+
+@font-face{
+	font-family:Montserratreg;
+	src:url(../font/Montserrat-Regular.otf);
+}
+
+@font-face{
+	font-family:tekst;
+	src:url(../font/Montserrat-Light.otf);
+}
+
+@font-face{
+	font-family: datumfont;
+	src: url(../font/Karla-Regular.ttf);
+}
+
+a{
+	color:white;
+}
+
+nav{
+	background-color:rgba(0,0,0,0.60);
+	position:fixed;
+	height:45px;
+	width:100%;
+
+}
+
+
+nav ul{
+	width:64%;
+	margin:0 auto;
+}
+
+nav ul li{
+	color:#333333;
+	float:left;
+	text-align:center;
+	width:20%;
+	color:white;
+	font-size:1.3vw;
+	padding-top:10px;
+	padding-left:2.5%;
+	padding-right:2.5%;
+	font-family:Montserratbold;
+}
+
+h1{
+	font-size:8em;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+	padding-bottom:75px;
+}
+
+
+
+/* opmaak slide 1 */
+
+#slide1{
+	background-image:url(../images/andre-benz-276974-unsplash.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+
+}
+
+#nodam, #sound{
+	font-family: bannerfont;
+    font-size: 5.4vw;
+    color: white;
+    float: left;
+    margin-top: 22%;
+}
+#nodam{
+	margin-left:12%;
+}
+
+#logobanner{
+	width:26%;
+	float:left;
+	margin-top:12%;
+
+	margin-left:5%;
+	margin-right:5%;
+
+}
+
+#sound{
+
+	margin-right:12%;
+}
+
+#datum{
+	font-family: datumfont;
+	color:white;
+	text-align:center;
+	font-size:6em;
+	padding-top:2%;
+	padding-right: 34%;
+
+
+}
+
+/* opmaak slide 2 */
+
+#slide2{
+	background-color:#d64542;
+	text-align:center;
+}
+
+.titel{ 
+	font-family:Montserratbold;
+	color:white;
+	margin:auto;
+	display:block;
+	text-align:center;
+	padding-top: 7%;
+	
+}
+
+.ticket{
+	width: 75%;
+	height: auto;
+}
+
+#dag1{
+	float:left;
+	height:600px;
+	width:30.3333%;
+	padding:1%;	
+	padding-top: 40px;
+}
+
+#dag2{
+	float:left;
+	height:600px;
+	width:31.3333%;
+	padding:1%;
+	padding-top: 40px;
+}
+
+#combi{
+	float:left;
+	height:600px;
+	width:30.3333%;
+	padding:1%;
+	padding-top: 40px;
+	
+}
+
+.prijs{ padding-top:1%;
+font-size:1.4em;
+}
+/* opmaak slide 3 */
+
+#slide3{
+	background-color:#131d3b;
+}
+
+
+
+.band{
+	width:100%;
+}
+
+/* opmaak slide 4 */
+
+#slide4{
+	background-color:#7697d7;
+	background-image:url(../images/aranxa-esteve-130752-unsplash.jpg);
+	background-size:50%;
+	background-repeat:no-repeat;
+}
+
+#titel{
+	font-family:Montserratbold;
+	color:white;
+	margin:auto;
+	display:block;
+	float:right;
+	padding-top:40px;
+	background-repeat:no-repeat;
+	margin-right:33%;
+}
+
+article{
+	font-family:tekst;
+	font-size:1.4em;
+	width:43%;
+	float: right;
+}
+
+#waar{
+	font-family:Montserratbold;
+	font-size:3em;
+	text-align:center;
+	padding-bottom:75px;
+	padding-top:75px;
+}
+
+#maps{
+	margin-left:25%;
+	margin-top:47px;
+	width:55.4%;
+}
+
+#slide4 iframe{
+	float: left;
+}
+.icoon{
+	width: 10%;
+	height: auto;
+}
+
+#slide4 iframe{
+	float: left;
+	padding-top: 61px;
+	padding-left: 20px;
+}
+
+
+.clear{
+	float: right;
+}
+
+#INFO{
+	padding-top: 51%;
+	
+}
+
+/* verwijderen zodra je content aan slides hebt toegevoegd*/
+
+#slide1, #slide2, #slide3, #slide4{
+		height:850px;
+}
+
+h2{
+	font-family:Montserratreg;
+	color:white;
+	font-size:5em;
+}
+
+
+
+h3{
+	font-family:Montserratreg;
+	color:white;
+	font-size:11em;
+	padding-top:110px;
+}
+
+p{
+	font-family:tekst;
+	color:white;
+	font-size: 11px;
+}
+
+
+
+
+figure{
+	width: 100%;
+	
+	}
+	
+	
+
+/* opmaak pop up1 */	
+
+
+.bandte{
+	font-size:1vw;
+	margin-top:2%;
+	margin-right:9%;
+	margin-left: 20%;
+	float: right;
+	
+}
+
+
+.titelband{
+	padding-top:20px;
+}
+
+
+.bandvid{
+	width:50%;
+	height:200px;
+	float:right;
+	margin-top: -7%;
+	margin-right: -6%;
+}
+
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  background: rgba(0,0,0, .8);
+  transition: opacity .25s ease;
+  z-index:3;
+}
+
+.modal:hover
+.modal:focus
+.modal:active{
+	cursor: pointer;
+	}
+
+.modal__bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.modal-state {
+  display: none;
+}
+
+.modal-state:checked + .modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-state:checked + .modal .modal__inner {
+  top: 0;
+}
+
+.modal__inner {
+  transition: top .25s ease;
+  position: absolute;
+  top: -20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  margin: auto;
+  overflow: auto;
+  background: #5577ce;
+  border-radius: 5px;
+  padding: 1em 2em;
+  height: 42%;
+}
+
+.modal__close {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  width: 1.1em;
+  height: 1.1em;
+  cursor: pointer;
+}
+
+.modal__close:after,
+.modal__close:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 1.5em;
+  background: #ccc;
+  display: block;
+  transform: rotate(45deg);
+  left: 50%;
+  margin: -3px 0 0 -1px;
+  top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+  background: #aaa;
+  cursor:pointer;
+}
+
+.modal__close:before {
+  transform: rotate(-45deg);
+}
+
+
+.zwart{
+	color:black;
+	font-size:1vw;
+}
+
+
